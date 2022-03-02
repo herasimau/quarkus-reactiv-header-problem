@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "f0032a2e-940d-4b75-b0a6-ef4e037eeb49",
+		"name": "Quarkus-reactive-headers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WithReactiveHeaders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9084/header/with-reactive-headers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9084",
+					"path": [
+						"header",
+						"with-reactive-headers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WithoutReactiveHeaders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9084/header/without-reactive-headers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9084",
+					"path": [
+						"header",
+						"without-reactive-headers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
