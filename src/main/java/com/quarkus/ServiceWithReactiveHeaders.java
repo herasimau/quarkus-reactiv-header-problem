@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 
 import io.smallrye.mutiny.Uni;
 
-@RegisterRestClient(baseUri = "http://0.0.0.0:3000")
+@RegisterRestClient(baseUri = "http://localhost:9084")
 @RegisterClientHeaders(ReactiveHeaderFactory.class)
 public interface ServiceWithReactiveHeaders {
 

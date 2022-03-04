@@ -9,7 +9,13 @@
 			"name": "WithReactiveHeaders",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
 				"url": {
 					"raw": "http://localhost:9084/header/with-reactive-headers",
 					"protocol": "http",
@@ -29,7 +35,13 @@
 			"name": "WithoutReactiveHeaders",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
 				"url": {
 					"raw": "http://localhost:9084/header/without-reactive-headers",
 					"protocol": "http",
